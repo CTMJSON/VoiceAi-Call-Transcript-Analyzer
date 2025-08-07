@@ -106,11 +106,11 @@ Speak clearly and confidently when sharing pricing.
 """
 
 # ------------- CONFIGURATION -------------
-OPENAI_API_KEY = "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"
-CTM_ACCOUNT_ID = 559239
-CTM_API_TOKEN = 'MzIwNmJkNWU1ZWIwNmRlZGU2ZTYyNWYwYjJhZjYxNDA6NmE4Y2VlN2RlOWQ2YjA1YmNhNDFlNTYwOGNlMjE0NjVjZTVh'
-AGENT_ID = 'USR913F8AAF638FAD1ACE97726138887196'
-CSV_FILE = 'ctm_ai_analysis_559239.csv'
+OPENAI_API_KEY = "{{OPEN AI KEY}}"
+CTM_ACCOUNT_ID = {{CTM ACCT ID}}
+CTM_API_TOKEN = '{{CTM BASIC AUTH}}'
+AGENT_ID = '{{CTM VOICEAI USR ID}}'
+CSV_FILE = 'ctm_ai_analysis.csv'
 OPENAI_MODEL = 'gpt-4.1-nano'
 
 BASE_URL = f'https://api.calltrackingmetrics.com/api/v1/accounts/{CTM_ACCOUNT_ID}/calls'
