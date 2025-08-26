@@ -15,17 +15,5 @@ Outputs all data, analysis, and recommendations to a CSV file for reporting or f
 
 Prints full API responses to assist with debugging data extraction.
 
-Usage instructions:
 
-Replace 'YOUR_ACCOUNT_ID_HERE' with your actual account ID.
-
-Replace 'YOUR_BASE64_ENCODED_API_KEY_HERE' with your call API key (Base64 encoded).
-
-Replace 'YOUR_OPENAI_API_KEY_HERE' with your OpenAI API key.
-
-Add your activity_ids in the list.
-
-Modify CUSTOMER_PROMPT as needed to tailor the AI evaluation prompt.
-
-Run the script; it will process all IDs and output a CSV with the evaluation results.
 
